@@ -1,0 +1,41 @@
+# _config.yml
+
+# GitHub locked settings
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Site settings
+title: tprk77.net
+email: code@tprk77.net
+description: "[object Object]"  # Lol
+baseurl: ""
+url: "https://tprk77.net"
+
+# Build settings
+plugins:
+  # GitHub locked plugins
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  # Extra plugins
+  - jekyll-feed
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE-NONSOURCE.md
+  - LICENSE.md
