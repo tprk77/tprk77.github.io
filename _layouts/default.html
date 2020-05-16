@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/timweb.css">
+  </head>
+  <body>
+    <header>
+      <h1>tprk77.net</h1>
+      <div id="banner"></div>
+      <nav>
+        <ul>
+          {% for item in site.data.nav %}
+          <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>Copyright © 2020 Tim Perkins</p>
+      <p><a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND</a></p>
+    </footer>
+  </body>
+</html>

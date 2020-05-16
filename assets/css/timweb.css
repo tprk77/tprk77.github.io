@@ -1,0 +1,213 @@
+html, body {
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DejaVu Sans', sans-serif;
+    color: black;
+    background-color: white;
+    min-width: 20em;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+code {
+    font-family: 'DejaVu Sans Mono', monospace;
+    color: black;
+    background-color: #f0f0f0;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+pre {
+    font-family: 'DejaVu Sans Mono', monospace;
+    color: black;
+    background-color: #f0f0f0;
+    border-left: 1em solid #dcdcdc;
+    overflow: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+pre code {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+blockquote {
+    color: black;
+    background-color: #f0f0f0;
+    border-left: 1em solid #dcdcdc;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+blockquote:before {
+    font-family: 'DejaVu Sans Mono', monospace;
+    color: #dcdcdc;
+    font-size: 2em;
+    font-weight: bold;
+    content: ">";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:before {
+    content: "[";
+}
+
+a:after {
+    content: "]";
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #777777;
+}
+
+a:active {
+    color: #990000;
+}
+
+header {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    margin-bottom: 1em;
+}
+
+#banner {
+    background-image: url(/assets/images/robodance.png);
+    height: 200px;
+    background-position: center;
+}
+
+nav {
+    background-color: #990000;
+    color: white;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-left: 0em;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a:active {
+    color: white;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#posts article {
+    margin-bottom: 2em;
+}
+
+.post .date {
+    color: #777777;
+}
+
+footer {
+    background-color: #990000;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer a:active {
+    color: white;
+}
