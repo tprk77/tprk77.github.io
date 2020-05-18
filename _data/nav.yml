@@ -1,4 +1,4 @@
-- name: Home
+- name: Projects
   link: "/"
 - name: Posts
   link: "/posts"

@@ -177,6 +177,40 @@ main {
     color: #777777;
 }
 
+.project-banner {
+    height: 160px;
+    background-position: center;
+    margin-top: 2em;
+}
+
+#ttfrm-banner {
+    background-image: url(/assets/images/ttfrm-banner.png);
+}
+
+#trollauncher-banner {
+    background-image: url(/assets/images/trollauncher-banner.png);
+}
+
+#kb-firmware-banner {
+    background-image: url(/assets/images/kb-firmware-banner.png);
+}
+
+#grid-engine-banner {
+    background-image: url(/assets/images/grid-engine-banner.png);
+}
+
+#dotfiles-banner {
+    background-image: url(/assets/images/dotfiles-banner.png);
+}
+
+#screeps-banner {
+    background-image: url(/assets/images/screeps-banner.png);
+}
+
+#vr-maze-banner {
+    background-image: url(/assets/images/vr-maze-banner.png);
+}
+
 footer {
     background-color: #990000;
     color: white;
