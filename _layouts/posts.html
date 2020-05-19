@@ -7,7 +7,7 @@ layout: default
   {%- for post in site.posts -%}
   <article class="post">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-    <span class="date">{{ post.date | date: "%Y-%m-%d 00:00:00 -0000" }}</span>
+    <p class="date">{{ post.date | date: "%Y-%m-%d 00:00:00 -0000" }}</p>
     {{ post.excerpt }}
     <!-- <a href="{{ post.url | relative_url }}">Read More</a> -->
   </article>
